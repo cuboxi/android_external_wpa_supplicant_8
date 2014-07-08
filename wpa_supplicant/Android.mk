@@ -1599,7 +1599,7 @@ include $(BUILD_EXECUTABLE)
 #include $(BUILD_EXECUTABLE)
 #
 ########################
-ifeq ($(WPA_SUPPLICANT_VERSION),$(filter $(WPA_SUPPLICANT_VERSION),VER_0_8_UNITE))
+ifeq ($(WPA_SUPPLICANT_VERSION),$(filter $(WPA_SUPPLICANT_VERSION),VER_0_8_X))
 local_target_dir := $(TARGET_OUT)/etc/wifi
 
 include $(CLEAR_VARS)
